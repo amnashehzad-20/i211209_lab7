@@ -2,7 +2,6 @@ const express = require('express');
 const User = require('./user');
 const Task=require("./task")
 const router = express.Router();
-require("dotenv").config();
 //user
 //login
 router.post('/login', async (req, res) => {
